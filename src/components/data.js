@@ -1,4 +1,5 @@
-let skills = [
+//Skills
+const skills = [
     {
         id: 1,
         name: 'HTML',
@@ -30,4 +31,50 @@ const getSkills = () => {
     return skills;
 };
 
-export default getSkills;
+//Portfolio
+const projects = [
+    {
+        id: 1,
+        project: `Stranger's Things`,
+        img: './img/screenshots/strangersthings.png',
+        url: 'https://stoic-raman-95405a.netlify.app/',
+        github: 'https://github.com/citrus77/Strangers.Things.Project.git',
+        contributers: [
+            {
+                name: 'Jason Lammers',
+                github: 'https://github.com/citrus77'
+            }
+        ],
+        description: 'under construction'
+    },
+    {
+        id: 2,
+        project: `Awesome Shoe Store`,
+        img: './img/screenshots/awesomeshoestore.png',
+        url: 'https://joyful-nodes.herokuapp.com/',
+        github: 'https://github.com/2105-SJS/joyful-nodes',
+        contributers: [
+            {
+                name: 'Jason Lammers',
+                github: 'https://github.com/citrus77'
+            },
+            {
+                name: 'Carlos Escamilla',
+                github: 'https://github.com/carlos-escamilla33'
+            },
+            {
+                name: 'Juan Soto',
+                github: 'https://github.com/juansotojs'
+            }
+        ],
+        description: 'under construction'
+    },
+];
+
+const getProjects = () => {
+    return projects;
+};
+
+//Exports
+const dataExports = { getProjects, getSkills };
+export default dataExports;

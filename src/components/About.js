@@ -1,8 +1,9 @@
 import React from 'react';
 import { SingleSkill } from '.';
-import getSkills from './data';
+import dataExports from './data';
 
 const About = () => {
+    const { getSkills } = dataExports
     const skills = getSkills();
     return (
         <>
