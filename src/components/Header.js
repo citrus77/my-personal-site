@@ -4,7 +4,7 @@ import { Nav } from '.';
 const Header = () => {
     return (
         <div className='header'>
-            <h1>Gooblygahaha</h1>
+            <h1>Jason Lammers</h1>
             <Nav />
         </div>
     );

@@ -5,12 +5,21 @@
     border: 0;
 }
 
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: pink;
+    height: 100vh;
+}
+
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 1em;
-    margin-right: 2em;
+    width: 80vw;
+    margin-top: 3em;
+    border-bottom: 1px solid black;
 }
 
 .skills {
@@ -22,6 +31,16 @@
     text-align: center;
 }
 
+.skill {
+    margin: 8px;
+    padding: 8px;
+    color: #000000;
+    background-color: #ffffff2f;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    border-radius: 12px;
+    font-family: sans-serif;
+}
+
 .skill-logo {
     object-fit: contain;
 }
@@ -29,4 +48,5 @@
 .nav-link {
     margin-left: 4px;
     margin-right: 4px;
+    font-size: 18px;
 }
