@@ -1,0 +1,32 @@
+* {
+    display: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 2em;
+}
+
+.skills {
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-logo {
+    object-fit: contain;
+}
+
+.nav-link {
+    margin-left: 4px;
+    margin-right: 4px;
+}
