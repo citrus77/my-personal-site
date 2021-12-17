@@ -6,10 +6,10 @@ const Portfolio = () => {
     const { getProjects } = dataExports;
     const projects = getProjects();
     return (
-        <div>
+        <div className='portfolio'>
             <h1>Portfolio</h1>
             {
-                projects.map(project => <SingleProject key={project.id} project={project} />)
+                projects.reverse().map(project => <SingleProject key={project.id} project={project} />)
             }
         </div>
     );

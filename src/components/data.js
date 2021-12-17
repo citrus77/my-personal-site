@@ -41,6 +41,7 @@ const projects = [
         github: 'https://github.com/citrus77/Strangers.Things.Project.git',
         contributers: [
             {
+                id: 1,
                 name: 'Jason Lammers',
                 github: 'https://github.com/citrus77'
             }
@@ -55,14 +56,17 @@ const projects = [
         github: 'https://github.com/2105-SJS/joyful-nodes',
         contributers: [
             {
+                id: 1,
                 name: 'Jason Lammers',
                 github: 'https://github.com/citrus77'
             },
             {
+                id: 2,
                 name: 'Carlos Escamilla',
                 github: 'https://github.com/carlos-escamilla33'
             },
             {
+                id: 3,
                 name: 'Juan Soto',
                 github: 'https://github.com/juansotojs'
             }
@@ -75,6 +79,17 @@ const getProjects = () => {
     return projects;
 };
 
+const contactInfo = {
+    name: 'Jason Lammers',
+    email: 'jason.lammers@outlook.com',
+    github: 'https://github.com/citrus77',
+    linkedIn: 'https://www.linkedin.com/in/jason-lammers/'
+};
+
+const getContactInfo = () => {
+    return contactInfo;
+};
+
 //Exports
-const dataExports = { getProjects, getSkills };
+const dataExports = { getContactInfo, getProjects, getSkills };
 export default dataExports;

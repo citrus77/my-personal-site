@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Route } from 'react-router-dom';
 import { 
   About,
+  Contact,
   Header,
   Home,
   Portfolio
@@ -19,6 +20,9 @@ const App = () => {
         </Route>
         <Route exact path='/about'>
           <About />
+        </Route>
+        <Route exact path='/contact'>
+          <Contact />
         </Route>
       </div>
     );
