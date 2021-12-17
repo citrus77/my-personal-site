@@ -46,7 +46,7 @@ const projects = [
                 github: 'https://github.com/citrus77'
             }
         ],
-        description: 'under construction'
+        description: `This solo frontend project served as my introduction to React.js. It was built with a pre-made API and is intended to be somewhat of a Craig's List clone.`
     },
     {
         id: 2,
