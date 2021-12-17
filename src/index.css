@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     background: linear-gradient(to bottom right, #00e178, #00bee1);
-    height: 100vh;
+    height: 100%;
 }
 
 .header {
@@ -66,19 +66,22 @@
 .project {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 12px;
     background-color: #ffffff2f;
     border: 1px solid rgba(0, 0, 0, 0.377);
     border-radius: 12px;
     font-family: sans-serif;
-    max-width: 80vw;
+    max-width: 70vw;
+    min-height: 30vw;
     padding: 12px;
 }
 
 .proj-content {
     display: flex;
     flex-direction: row;
+    text-align: justify;
 }
 
 .proj-img {

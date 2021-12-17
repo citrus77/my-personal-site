@@ -71,7 +71,7 @@ const projects = [
                 github: 'https://github.com/juansotojs'
             }
         ],
-        description: 'under construction'
+        description: 'An ecommerce site built with React.js, Node.js and PostgreSQL. This fullstack project was completed in an agile environment with a team of 3. This was my first real experience collaborating with other people on the same project.'
     },
 ];
 

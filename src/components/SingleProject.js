@@ -15,10 +15,10 @@ const SingleProject = ({ project }) => {
                     </a>
                 </div>
                 <div className='proj-desc'>
-                    <div>
-                        <a href={project.github} target='_github'>GitHub</a>
-                    </div>
                     <div>{project.description}</div>
+                    <div>
+                        <a href={project.github} target='_github'>Project GitHub</a>
+                    </div>
                     {
                         project.contributers.map(contributer => <div key={contributer.id}>
                                 <br />
