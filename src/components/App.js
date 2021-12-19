@@ -12,18 +12,20 @@ const App = () => {
     return (
       <div id='app'>
         <Header />
-        <Route exact path='/'>
-          <Home />
-        </Route>
-        <Route exact path='/portfolio'>
-          <Portfolio />
-        </Route>
-        <Route exact path='/about'>
-          <About />
-        </Route>
-        <Route exact path='/contact'>
-          <Contact />
-        </Route>
+        <main>
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route exact path='/portfolio'>
+            <Portfolio />
+          </Route>
+          <Route exact path='/about'>
+            <About />
+          </Route>
+          <Route exact path='/contact'>
+            <Contact />
+          </Route>
+        </main>
       </div>
     );
 };
