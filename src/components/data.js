@@ -24,6 +24,11 @@ const skills = [
         id: 5,
         name: 'React',
         img: './img/react.png'
+    },
+    {
+        id: 6,
+        name: 'PostgreSQL',
+        img: './img/elephant.png'
     }
 ]
 
