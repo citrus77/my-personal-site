@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return <>
-        <div>Movin' to the country, gonna eat me a lot of peaches</div>
+        <div>This page is still under construction. This message will disappear when I feel it is complete.</div>
     </>;
 };
 

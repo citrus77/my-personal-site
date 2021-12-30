@@ -21,7 +21,7 @@ const Contact = () => {
                 <br />
                 <div>Check out my GitHub @ <a href={github} target='_github'>
                         {github}
-                    </a>!
+                    </a>
                 </div>
             </div>
         </div>

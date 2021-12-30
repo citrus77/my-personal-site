@@ -40,6 +40,25 @@ a:hover {
     border-bottom: 1px solid #ffffff;
 }
 
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: #3a3a3a;
+    border-radius: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.active {
+    background-color: #00bee1;
+    border-radius: 45px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 4px;
+}
+
 main {
     padding-top: 8em;
 }

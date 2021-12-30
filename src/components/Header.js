@@ -1,11 +1,11 @@
 import React from 'react';
 import { Nav } from '.';
 
-const Header = () => {
+const Header = ({ path, getPath }) => {
     return (
         <div className='header'>
             <h1>Jason Lammers</h1>
-            <Nav />
+            <Nav path={path} getPath={getPath} />
         </div>
     );
 };
