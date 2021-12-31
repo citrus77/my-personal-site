@@ -2,8 +2,8 @@ import React from 'react';
 import dataExports from './data';
 
 const Contact = () => {
-    const { getContactInfo } = dataExports;
-    const { email, name, linkedIn, github} = getContactInfo();
+    const { getAboutMe } = dataExports;
+    const { email, name, linkedIn, github} = getAboutMe();
     return (
         <div className='contact'>
             <h1>Get in touch!</h1>

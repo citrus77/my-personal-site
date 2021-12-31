@@ -84,17 +84,41 @@ const getProjects = () => {
     return projects;
 };
 
-const contactInfo = {
+const aboutMe = {
     name: 'Jason Lammers',
     email: 'jason.lammers@outlook.com',
     github: 'https://github.com/citrus77',
-    linkedIn: 'https://www.linkedin.com/in/jason-lammers/'
+    linkedIn: 'https://www.linkedin.com/in/jason-lammers/',
+    description: 'Web Developer seeking employment with a dynamic tech team. Known as an analytical, problem-solving professional with strong time-management skills and the ability to learn concepts quickly.  5+ years of experience working directly in customer service and 10+ years working in fast-paced team environments.'
 };
 
-const getContactInfo = () => {
-    return contactInfo;
+const getAboutMe = () => {
+    return aboutMe;
+};
+
+//Education
+const education = [
+    {
+        id: 1,
+        name: 'Fullstack Academy',
+        location: 'San Jose State University',
+        startMonth: 'May',
+        startYear: '2021',
+        endMonth: 'November',
+        endYear: '2021',
+        description: 'Certificate in Web Development- Powered by Fullstack Academy. Rigorous coding bootcamp focused on fullstack development. Emphasis on paired programming in an agile environment.'
+    }
+];
+
+const getEducation = () => {
+    return education;
 };
 
 //Exports
-const dataExports = { getContactInfo, getProjects, getSkills };
+const dataExports = { 
+    getAboutMe, 
+    getProjects, 
+    getSkills, 
+    getEducation
+};
 export default dataExports;
