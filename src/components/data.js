@@ -106,7 +106,8 @@ const education = [
         startYear: '2021',
         endMonth: 'November',
         endYear: '2021',
-        description: 'Certificate in Web Development- Powered by Fullstack Academy. Rigorous coding bootcamp focused on fullstack development. Emphasis on paired programming in an agile environment.'
+        description: 'Certificate in Web Development- Powered by Fullstack Academy. Rigorous coding bootcamp focused on fullstack development. Emphasis on paired programming in an agile environment.',
+        logo: './img/hanover-square-logo.png'
     }
 ];
 

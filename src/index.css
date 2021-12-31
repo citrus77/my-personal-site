@@ -122,7 +122,27 @@ main {
     object-fit: contain;
 }
 
+.edu-logo {
+    max-width: 128px;
+    object-fit: contain;
+    margin-bottom: 1em;
+}
+
 .description {
+    margin: 8px;
+    padding: 8px;
+    color: #000000;
+    background-color: #ffffffc0;
+    border: 1px solid #00000060;
+    border-radius: 12px;
+    font-family: sans-serif;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    width: 60vw;
+    line-height: 1.4;
+    padding: 12px;
+}
+
+.edu {
     margin: 8px;
     padding: 8px;
     color: #000000;
@@ -150,6 +170,14 @@ main {
     align-content: center;
     align-items: center;
     text-align: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: justify;
 }
 
 .project {
