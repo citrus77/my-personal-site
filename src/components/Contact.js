@@ -9,7 +9,7 @@ const Contact = () => {
             <h1>Get in touch!</h1>
             <br />
             <div className='contact-info'>
-                <div>{name}</div>
+                <h3>{name}</h3>
                 <div>e-mail: <a href='mailto:{email}' target='_email'>
                         {email}
                     </a>
@@ -17,9 +17,8 @@ const Contact = () => {
                 <div>LinkedIn: <a href={linkedIn} target='_linkedin'>
                         {linkedIn}
                     </a>
-                </div>
-                <br />
-                <div>Check out my GitHub @ <a href={github} target='_github'>
+                </div>                
+                <div>GitHub: <a href={github} target='_github'>
                         {github}
                     </a>
                 </div>
