@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Route, withRouter } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Route } from 'react-router-dom';
 import {
   About,
   Contact,
@@ -10,23 +10,10 @@ import {
 
 const App = () => {
   const [path, setPath] = useState('/');
-  const getPath = () => {
-    const {pathname} = location;
-    setPath(pathname);
-    return path;
-  }
-
-  useEffect(() => {
-    try {      
-      getPath();    
-    } catch (error) {
-      console.error(error);
-    } 
-  }, [path]);
 
   return (
     <div id='app'>
-      <Header path={path} getPath={getPath}/>
+      <Header path={path} setPath={setPath} />
       <main>
         <Route exact path='/'>
           <Home />
