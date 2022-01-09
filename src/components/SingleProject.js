@@ -20,12 +20,12 @@ const SingleProject = ({ project }) => {
                         <a href={project.github} target='_github'>Project GitHub</a>
                     </div>
                     <br />
-                    <h3>Contributers:</h3>
+                    <h3>Contributors:</h3>
                     {
-                        project.contributers.map(contributer => <div key={contributer.id} className='contributer'>
-                                <div>{contributer.name}</div>
+                        project.contributors.map(contributor => <div key={contributor.id} className='contributor'>
+                                <div>{contributor.name}</div>
                                 <div>
-                                    <a href={contributer.github} target='_github'>{contributer.github}</a>
+                                    <a href={contributor.github} target='_github'>{contributor.github}</a>
                                 </div>
                             </div>
                         )

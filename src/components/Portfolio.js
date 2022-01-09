@@ -9,7 +9,7 @@ const Portfolio = () => {
         <div className='portfolio'>
             <h1>Portfolio</h1>
             {
-                projects.map(project => <SingleProject key={project.id} project={project} />)
+                projects.reverse().map(project => <SingleProject key={project.id} project={project} />)
             }
         </div>
     );

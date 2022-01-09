@@ -40,11 +40,26 @@ const getSkills = () => {
 const projects = [
     {
         id: 1,
+        project: 'Connect-Four',
+        img: './img/screenshots/connectfour.png',
+        url: 'https://elegant-jones-1aa5f1.netlify.app/',
+        github: 'https://github.com/citrus77/connect-four',
+        contributors: [
+            {
+                id: 1,
+                name: 'Jason Lammers',
+                github: 'https://github.com/citrus77'
+            }
+        ],
+        description: `One of my earlier projects, this recreation of the classic game Connect-Four! solidified my understanding of JavaScript.`
+    },
+    {
+        id: 2,
         project: `Stranger's Things`,
         img: './img/screenshots/strangersthings.png',
         url: 'https://stoic-raman-95405a.netlify.app/',
         github: 'https://github.com/citrus77/Strangers.Things.Project.git',
-        contributers: [
+        contributors: [
             {
                 id: 1,
                 name: 'Jason Lammers',
@@ -54,12 +69,12 @@ const projects = [
         description: `This solo frontend project served as my introduction to React.js. It was built with a pre-made API and is intended to be somewhat of a Craig's List clone.`
     },
     {
-        id: 2,
+        id: 3,
         project: `Awesome Shoe Store`,
         img: './img/screenshots/awesomeshoestore.png',
         url: 'https://joyful-nodes.herokuapp.com/',
         github: 'https://github.com/2105-SJS/joyful-nodes',
-        contributers: [
+        contributors: [
             {
                 id: 1,
                 name: 'Jason Lammers',
