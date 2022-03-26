@@ -43,6 +43,25 @@ a:hover {
     box-shadow: 0 0px 8px 0 #00000033, 0 6px 20px 0 #00000030;
 }
 
+#landing {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    word-wrap: wrap;
+    text-align: justify;
+    width: 600px;
+    font-size: 20px;
+    text-shadow: 0 0px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.profile-pic {
+    float: left;
+    margin: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
 .me {
     color: white;
     margin-left: 4em;
