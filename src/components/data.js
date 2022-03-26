@@ -29,6 +29,11 @@ const skills = [
         id: 6,
         name: 'PostgreSQL',
         img: './img/elephant.png'
+    },
+    {
+        id: 7,
+        name: 'Playwright',
+        img: './img/playwright.svg'
     }
 ]
 
@@ -103,7 +108,8 @@ const aboutMe = {
     name: 'Jason Lammers',
     email: 'jason.lammers@outlook.com',
     github: 'https://github.com/citrus77',
-    linkedIn: 'https://www.linkedin.com/in/jason-lammers/',
+    linkedIn: 'https://www.linkedin.com/in/jason-lammers/',    
+    resumeLnk: 'https://1drv.ms/b/s!ArNExx5K-yt6gYS8QZX117ytuk9xAjU?e=cPVw4w',
     description: 'Web Developer seeking employment with a dynamic tech team. Known as an analytical, problem-solving professional with strong time-management skills and the ability to learn concepts quickly.  5+ years of experience working directly in customer service and 10+ years working in fast-paced team environments.'
 };
 
