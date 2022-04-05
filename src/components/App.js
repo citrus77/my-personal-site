@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import {
   About,
   Contact,
@@ -15,18 +15,12 @@ const App = () => {
     <div id='app'>
       <Header path={path} setPath={setPath} />
       <main>
-        <Route exact path='/'>
-          <Home />
-        </Route>
-        <Route exact path='/portfolio'>
-          <Portfolio />
-        </Route>
-        <Route exact path='/about'>
-          <About />
-        </Route>
-        <Route exact path='/contact'>
-          <Contact />
-        </Route>
+        <Routes>
+          <Route path='/' element={ <Home /> } />
+          <Route path='/portfolio' element={ <Portfolio /> } />
+          <Route path='/about' element= { <About /> } />
+          <Route path='/contact' element={ <Contact /> } />
+        </Routes>        
       </main>
     </div>
   );
