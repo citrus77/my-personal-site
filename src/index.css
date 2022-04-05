@@ -63,13 +63,9 @@ a:hover {
 }
 
 .me {
-    color: white;
+    color: #3a3a3a96;
     margin-left: 4em;
-    text-shadow:
-        -1px -1px 0 #3a3a3a96, 
-        1px -1px 0 #3a3a3a96,
-        -1px 1px 0 #3a3a3a96,
-        1px 1px 0 #3a3a3a96; 
+    font-style: oblique;
 }
 
 h1 {
@@ -87,7 +83,7 @@ h1 {
     margin-right: 2em;
     margin-top: 1em;
     margin-bottom: 1em;
-    border: 1px solid #bfffbc;
+    border: 1px solid #ffffff;
 }
 
 .nav-link {
@@ -102,7 +98,7 @@ h1 {
 }
 
 .nav-active {
-    background-color: #bfffbcb9;
+    background-color: #ffffff;
     color: #3a3a3a96;
     font-weight: bold;
     border-radius: 45px;
@@ -130,11 +126,13 @@ main {
     margin: 8px;
     padding: 8px;
     color: #000000;
-    background-color: #ffffffc0;
-    border: 1px solid #00000060;
     border-radius: 12px;
     font-family: sans-serif;
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    background-color: #ffffff99;
+    border-radius: 12px;
+    backdrop-filter: blur(7px);
+    border: 2px solid #ffffff33;
 }
 
 .skill-logo {
@@ -151,42 +149,48 @@ main {
     margin: 8px;
     padding: 8px;
     color: #000000;
-    background-color: #ffffffc0;
-    border: 1px solid #00000060;
     border-radius: 12px;
     font-family: sans-serif;
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
     width: 45vw;
     line-height: 1.4;
     padding: 12px;
+    background-color: #ffffff99;
+    border-radius: 12px;
+    backdrop-filter: blur(7px);
+    border: 2px solid #ffffff33;
 }
 
 .description {
     margin: 8px;
     padding: 8px;
     color: #000000;
-    background-color: #ffffffc0;
-    border: 1px solid #00000060;
     border-radius: 12px;
     font-family: sans-serif;
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
     width: 60vw;
     line-height: 1.4;
     padding: 12px;
+    background-color: #ffffff99;
+    border-radius: 12px;
+    backdrop-filter: blur(7px);
+    border: 2px solid #ffffff33;
 }
 
 .edu {
     margin: 8px;
     padding: 8px;
     color: #000000;
-    background-color: #ffffffc0;
-    border: 1px solid #00000060;
     border-radius: 12px;
     font-family: sans-serif;
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
     width: 60vw;
     line-height: 1.4;
     padding: 12px;
+    background-color: #ffffff99;
+    border-radius: 12px;
+    backdrop-filter: blur(7px);
+    border: 2px solid #ffffff33;
 }
 
 .nav-link {
@@ -228,14 +232,16 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 12px;
-    background-color: #ffffffc0;
-    border: 2px solid #bfffbc;
     border-radius: 12px;
     font-family: sans-serif;
     max-width: 70vw;
     min-height: 30vw;
     padding: 12px;
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    background-color: #ffffff99;
+    border-radius: 12px;
+    backdrop-filter: blur(7px);
+    border: 2px solid #ffffff33;
 }
 
 .proj-content {
