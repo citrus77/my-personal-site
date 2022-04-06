@@ -16,7 +16,7 @@ const About = () => {
         <h2>Skills</h2>
         <div className='skills'>
             {
-                skills.map(skill => <SingleSkill key={skill.id} skill={skill} />)
+                skills ? skills.map(skill => <SingleSkill key={skill.id} skill={skill} />) : null
             }
         </div>
         <br />

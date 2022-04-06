@@ -1,0 +1,22 @@
+.header {
+    background: linear-gradient(to right, #bfffbc, #00bee1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100vw;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #29282842;
+    box-shadow: 0 0px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    user-select: none;
+    z-index: 1;
+}
+
+.me {
+    color: #3a3a3a96;
+    margin-left: 4em;
+    font-style: oblique;
+}
