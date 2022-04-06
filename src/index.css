@@ -220,7 +220,7 @@ main {
     margin: 12px;
     border-radius: 12px;
     font-family: sans-serif;
-    max-width: 70vw;
+    width: 60vw;
     min-height: 30vw;
     padding: 12px;
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
@@ -234,6 +234,7 @@ main {
     display: flex;
     flex-direction: column;
     text-align: justify;
+    align-items: center;
     padding: 1.5em;
     line-height: 1.5;
 }
